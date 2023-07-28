@@ -27,6 +27,7 @@ a {
 
 p {
     margin: 0;
+    display: flex;
 }
 
 ul {
@@ -121,9 +122,31 @@ button {
 }
 
 .quote {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     background-color: #E5E7EB;
     margin: 0 -8px;
-    height: 500px;
+    height: fit-content;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 60%;
+    justify-content: center;
+}
+
+.quote-person {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 24px;
+    width: 60%;
+    justify-content: flex-end;
 }
 
 footer {
