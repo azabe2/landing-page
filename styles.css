@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     margin: -8px -8px 0 -8px;
-    padding: 0 300px;
+    padding: 0 20%;
     align-items: center;
 }
 
@@ -43,7 +43,7 @@ ul {
     flex: 1;
     background-color:#1F2937;
     margin: 0px -8px;
-    padding: 20px 300px 50px;
+    padding: 5% 20%;
     height: fit-content;
     align-items: center;
     justify-content: space-between;
@@ -86,16 +86,17 @@ button {
 
 .information {
     display: flex;
-    margin: 25px -8px;
     flex-direction: column;
     align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: 0 0 25px 0;
+    margin-bottom: 5%;
 }
 
 .info-container {
@@ -128,7 +129,7 @@ button {
     background-color: #E5E7EB;
     margin: 0 -8px;
     height: fit-content;
-    padding: 50px 0;
+    padding: 7% 0;
     align-items: center;
 }
 
@@ -147,6 +148,40 @@ button {
     font-size: 24px;
     width: 60%;
     justify-content: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.action-container {
+    display: flex;
+    width: 60%;
+    padding: 3%;
+    margin: 0 15%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.call-to-action {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.action-sign-up {
+    border: solid #E5E7EB;
+    height: 100%;
+    width: 10%;
 }
 
 footer {
