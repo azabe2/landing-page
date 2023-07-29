@@ -104,22 +104,27 @@ button {
     flex: 1;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 60%;
     height: fit-content;
+ }
+
+.cards {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    row-gap: 50px;
+    width: 300px;
+    gap: 20px;
 }
 
-.one, .two, .three, .four {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+.card-image {
+    border: solid 5px #3882F6;
+    border-radius: 15px;
     width: 200px;
     height: 200px;
-    border: #3882F6 solid 3px;
-    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+    max-width: 200px;
 }
 
 .quote {
