@@ -46,8 +46,7 @@ ul {
     display: flex;
     flex: 1;
     background-color:#1F2937;
-    padding: 10% 10% 5% 10%;
-    height: fit-content;
+    padding: 5% 10% 5% 10%;
     align-items: center;
     justify-content: space-between;
 }
@@ -80,12 +79,10 @@ button {
     width: 100px;
 }
 
-.image-placeholder {
-    background-color: #F9FAF8;
+.hero-image {
     margin: 0;
-    width: 50%;
-    height: 250px;
-    text-align: center;    
+    width: 45%;
+    border-radius: 10px;   
 }
 
 .information {
