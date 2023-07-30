@@ -3,11 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: #dee2e6;
 }
 
 nav {
     display: flex;
-    background-color: #4d5d53;
+    background-color: #6c757d;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -15,7 +16,7 @@ nav {
 
 a {
     text-decoration: none;
-    color:#E5E7EB;
+    color:#e9ecef;
     font-size: 18px;
     padding: 20% 0;
 }
@@ -30,12 +31,9 @@ p {
     flex: 1;
     justify-content: flex-end;
     list-style: none;
-    text-align: center;
     margin-right: 10%;
     padding: 0;
     gap: 5%;
-    color: #F9FAF8;
-    font-size: 24px;
 }
 
 .header-logo {
@@ -47,7 +45,7 @@ p {
 .intro{
     display: flex;
     flex: 1;
-    background-color:#4d5d53;
+    background-color: #6c757d;
     padding: 7% 10% 5% 10%;
     align-items: center;
     justify-content: space-between;
@@ -62,20 +60,20 @@ p {
 
 .intro-title {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #e9ecef;
     font-weight: 800;
 }
 
 .intro-text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e9ecef;
     text-align: justify;
     margin: 5% 0 0;
 }
 
 button {
-    background-color: #3882F6;
-    border: solid #3882F6;
+    background-color: #495057;
+    border: solid #495057;
     color: #E5E7EB;
     margin-top: 5%;
     border-radius: 10px;
@@ -100,7 +98,7 @@ button {
 .content-header {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
+    color: #6c757d;
     margin-bottom: 5%;
 }
 
@@ -122,7 +120,7 @@ button {
 }
 
 .card-border {
-    border: solid 5px #1F2937;
+    border: solid 5px #6c757d;
     border-radius: 15px;
     width: 200px;
     height: 200px;
@@ -138,16 +136,17 @@ button {
 .card-text {
     text-align: center;
     max-width: 200px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     text-decoration: underline;
+    color: #6c757d;
     }
 
 .quote {
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: #ced4da;
     height: fit-content;
     padding: 7% 0;
     align-items: center;
@@ -183,14 +182,14 @@ button {
     margin: 0 15%;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #6c757d;
     border-radius: 15px;
 }
 
 .mailing-list-text {
     display: flex;
     flex-direction: column;
-    color: #E5E7EB;
+    color: #e9ecef;
     width: 50%;
 }
 
@@ -201,7 +200,7 @@ button {
 }
 
 .mailing-list-sign-up {
-    border: solid #E5E7EB;
+    border: solid #495057;
     margin: 0;
 }
 
@@ -210,6 +209,6 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #1F2937;
-    color: #E5E7EB
+    background-color: #6c757d;
+    color: #e9ecef
 }
