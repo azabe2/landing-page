@@ -87,7 +87,7 @@ button {
     border-radius: 10px;   
 }
 
-.information {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,14 +95,14 @@ button {
     margin-bottom: 5%;
 }
 
-.info-header {
+.content-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     margin-bottom: 5%;
 }
 
-.info-container {
+.content-container {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -119,17 +119,27 @@ button {
     gap: 20px;
 }
 
-.card-image {
-    border: solid 5px #3882F6;
+.card-border {
+    border: solid 5px #1F2937;
     border-radius: 15px;
     width: 200px;
     height: 200px;
 }
 
+.card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .card-text {
     text-align: center;
     max-width: 200px;
-}
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: underline;
+    }
 
 .quote {
     display: flex;
