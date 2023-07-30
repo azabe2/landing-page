@@ -200,6 +200,7 @@ button {
     border: solid #E5E7EB;
     height: 100%;
     width: 10%;
+    margin: 0;
 }
 
 footer {
