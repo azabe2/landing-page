@@ -168,13 +168,13 @@ button {
     justify-content: flex-end;
 }
 
-.action {
+.mailing-list {
     display: flex;
     justify-content: center;
     margin: 5%;
 }
 
-.action-container {
+.mailing-list-container {
     display: flex;
     width: 60%;
     padding: 3%;
@@ -185,21 +185,21 @@ button {
     border-radius: 15px;
 }
 
-.action-text {
+.mailing-list-text {
     display: flex;
     flex-direction: column;
     color: #E5E7EB;
+    width: 50%;
 }
 
-.call-to-action {
+.mailing-list-head {
     font-weight: 900;
     font-size: 24px;
+    margin-bottom: 2%;
 }
 
-.action-sign-up {
+.mailing-list-sign-up {
     border: solid #E5E7EB;
-    height: 100%;
-    width: 10%;
     margin: 0;
 }
 
