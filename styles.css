@@ -7,19 +7,17 @@ body {
 
 nav {
     display: flex;
-    flex: 1;
-    justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #4d5d53;
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 7%;
 }
 
 a {
     text-decoration: none;
     color:#E5E7EB;
     font-size: 18px;
+    padding: 20% 0;
 }
 
 p {
@@ -27,26 +25,30 @@ p {
     display: flex;
 }
 
-ul {
+.navbar ul {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
+    justify-content: flex-end;
     list-style: none;
-    margin: 0 10% 0 0;
+    text-align: center;
+    margin-right: 10%;
+    padding: 0;
+    gap: 5%;
     color: #F9FAF8;
     font-size: 24px;
-    width: 25%;
 }
 
 .header-logo {
     margin-left: 10%;
+    margin-right: auto;
     width: 5%;
 }
 
 .intro{
     display: flex;
     flex: 1;
-    background-color:#1F2937;
-    padding: 5% 10% 5% 10%;
+    background-color:#4d5d53;
+    padding: 7% 10% 5% 10%;
     align-items: center;
     justify-content: space-between;
 }
