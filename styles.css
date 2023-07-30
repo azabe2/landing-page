@@ -13,6 +13,7 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
+    height: 10%;
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -36,8 +37,9 @@ ul {
     gap: 20px;
 }
 
-.h1-header {
+.header-logo {
     padding-left: 10%;
+    width: 5%;
 }
 
 .hero {
