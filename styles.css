@@ -106,6 +106,7 @@ button {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
     height: fit-content;
     row-gap: 35px;
